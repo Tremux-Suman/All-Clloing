@@ -26,7 +26,7 @@ PAID TOOLS
 
 - `pip install bs4`
 
-- `rm -rf AKING`
+- `rm -rf All-Clloing`
 
 - `git clone https://github.com/Tremux-Suman/All-Clloing.git`
 
