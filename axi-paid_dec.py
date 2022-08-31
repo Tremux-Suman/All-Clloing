@@ -124,7 +124,7 @@ def tod():
         '\x1b[1;93m..  ',
         '\x1b[1;96m... ']
     for x in titik:
-        print '\r \x1b[1;93m[+] remove token '(N, M, N, x),
+ 
         sys.stdout.flu
         time.sleep(1)
     
