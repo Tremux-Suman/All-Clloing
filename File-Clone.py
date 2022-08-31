@@ -351,7 +351,7 @@ def bnsbuy():
         tks = 'Hello%20Admin%20Approval%20my%20key.%20payment%20Done,%20%20Information%20:-%20%20%20Track%20Msg%20:%20%20'+sb+'%20Key%20:%20'+ss
         os.system('am start https://wa.me/+8801612278337?text=' + tks)
 
-def bnsreg():
+def reg():
     os.system('clear')
     print (logo)
     print ('\x1b[1;97m\tYour Key Is Not Approved\n')
@@ -395,5 +395,5 @@ class load:
             time.sleep(0.1)
         print('\n')
 
-mr_kausar()
+reg()
 
