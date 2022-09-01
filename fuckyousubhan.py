@@ -42,7 +42,7 @@ cps = []
 def main_apv():
     imt = '+SUBHAN=='
     os.system('clear')
-    print logo
+    logo()
     try:
         key1 = open('/sdcard/imt.txt', 'r').read()
     except IOError:
