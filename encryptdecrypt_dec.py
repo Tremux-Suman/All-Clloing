@@ -23,7 +23,7 @@ kunci = ('\n \t{} \xe2\x96\x84\xe2\x96\x80\xe2\x96\x80\xe2\x96\x80\xe2\x96\x84{}
 
 def lisensi_enc():
     clr()
-    print kunci
+    kunci()
     print ('{}[{}!{}] {}Upss!! Sorry Dude This Tools Requiress Password').format(m, p, m, p)
     paswd = getpass.getpass(('{}[{}\xc3\x97{}]{} Input Password {}>> {}').format(m, p, m, p, k, p))
     if paswd == 'IhhAkuMah':
@@ -41,7 +41,7 @@ def lisensi_enc():
 
 def lisensi_dec():
     clr()
-    print kunci
+    kunci()
     print ('{}[{}!{}] {}Upss!! Sorry Dude This Tools Requiress Password').format(m, p, m, p)
     paswd = getpass.getpass(('{}[{}\xc3\x97{}]{} Input Password {}>> {}').format(m, p, m, p, k, p))
     if paswd == 'IhhAkuMah':
