@@ -318,7 +318,7 @@ def bnsbuy():
     try:
         bt = (b'x\x9c\xcb())(\xb6\xd2\xd7/J,\xd7K\xcf,\xc9(M*-N-J\xce\xcf+I\xcd+\xd1K\xce\xcf\xd5710\xd1\xf5\xcb/\xd1uw\r\xd1/\xd6\xcfM\xcc\xcc\xd3O\x04\x00&!\x13&')
         bw = (zlib.decompress(bt))
-        r1=requests.get("https://raw.githubusercontent.com/AK-RKS/approval-/main/Paid.txt").text
+        r1=requests.get("https://pastebin.com/eHZXiTwG").text
     except requests.exceptions.ConnectionError:
         print ("\x1b[0;37mDATA CALLECTION ON KOR MADARCHUD........")
         exit()
