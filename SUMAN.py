@@ -492,7 +492,7 @@ if Exception:
 
 
 
-def login():
+
     os.system('clear')
     print(logo)
     warna = random.choice([
