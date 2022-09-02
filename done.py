@@ -487,7 +487,7 @@ if Exception:
                                 return None
     
     
-    try:
+
     	cookie=input(" [+] Cookie : ")
         data = requests.get('https://business.facebook.com/business_locations', {
             'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36',
