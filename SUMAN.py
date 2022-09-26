@@ -15,6 +15,6 @@ if bit=='64bit':
 elif bit=='32bit':
     print(f'{green}[•] Join Over Facebook Group For Any Help{white}')
     os.system('xdg-open https://facebook.com/groups/351076900316263/')
-    import SUMAN_32
+    import 
 else:
     print(f'{red}[×] Sorry System Not Support{white}')
