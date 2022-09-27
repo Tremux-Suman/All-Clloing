@@ -1,20 +1,11 @@
-import os,time,platform
+import os,platform
 os.system('clear')
 print('[•] Checking Updates...')
 os.system('git pull')
-green = ('\033[1;32m')
-white = ('\033[1;37m')
-red = ('\033[1;31m')
-
-print('<------------------------------------>')
 bit = platform.architecture()[0]
 if bit=='64bit':
-    print(f'{green}[•] Join Over Facebook Group For Any Help{white}')
+    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
     os.system('xdg-open https://facebook.com/groups/351076900316263/')
     import SUM
-elif bit=='32bit':
-    print(f'{green}[•] Join Over Facebook Group For Any Help{white}')
-    os.system('xdg-open https://facebook.com/groups/351076900316263/')
-    import SUMAN_32
 else:
-    print(f'{red}[×] Sorry System Not Support{white}')
+    exit('\033[1;31m[×] Sorry Device Not Support')
